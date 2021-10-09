@@ -1,4 +1,4 @@
-package com.vn.Graduated_Project;
+package com.vn;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

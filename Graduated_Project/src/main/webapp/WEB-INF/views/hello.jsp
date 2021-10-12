@@ -10,7 +10,12 @@
 
 </head>
 <body>
-	<h1>HjHj</h1>
-	<h2>${message}</h2>
+	<i th:text="${message}"></i>
+	<form action="/login" method="post">
+	 <h4><a th:href="/@{/oauth2/authorization/google}">Login with Google</a></h4> 
+		<input name="username"><br>
+		<input name="password"><br>
+		<button>Login</button>
+	</form>
 </body>
 </html>
